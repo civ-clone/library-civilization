@@ -1,0 +1,12 @@
+export { Aggression } from './Traits/Aggression';
+export { Aggressive } from './Traits/Aggression/Aggressive';
+export { Civilized } from './Traits/Militarism/Civilized';
+export { Development } from './Traits/Development';
+export { Expansionist } from './Traits/Development/Expansionist';
+export { Friendly } from './Traits/Aggression/Friendly';
+export { Militarism } from './Traits/Militarism';
+export { Militaristic } from './Traits/Militarism/Militaristic';
+export { Normal as NormalAggression } from './Traits/Aggression/Normal';
+export { Normal as NormalDevelopment } from './Traits/Development/Normal';
+export { Normal as NormalMilitarism } from './Traits/Militarism/Normal';
+export { Perfectionist } from './Traits/Development/Perfectionist';

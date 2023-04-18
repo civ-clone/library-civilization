@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Perfectionist = exports.NormalMilitarism = exports.NormalDevelopment = exports.NormalAggression = exports.Militaristic = exports.Militarism = exports.Friendly = exports.Expansionist = exports.Development = exports.Civilized = exports.Aggressive = exports.Aggression = void 0;
+var Aggression_1 = require("./Traits/Aggression");
+Object.defineProperty(exports, "Aggression", { enumerable: true, get: function () { return Aggression_1.Aggression; } });
+var Aggressive_1 = require("./Traits/Aggression/Aggressive");
+Object.defineProperty(exports, "Aggressive", { enumerable: true, get: function () { return Aggressive_1.Aggressive; } });
+var Civilized_1 = require("./Traits/Militarism/Civilized");
+Object.defineProperty(exports, "Civilized", { enumerable: true, get: function () { return Civilized_1.Civilized; } });
+var Development_1 = require("./Traits/Development");
+Object.defineProperty(exports, "Development", { enumerable: true, get: function () { return Development_1.Development; } });
+var Expansionist_1 = require("./Traits/Development/Expansionist");
+Object.defineProperty(exports, "Expansionist", { enumerable: true, get: function () { return Expansionist_1.Expansionist; } });
+var Friendly_1 = require("./Traits/Aggression/Friendly");
+Object.defineProperty(exports, "Friendly", { enumerable: true, get: function () { return Friendly_1.Friendly; } });
+var Militarism_1 = require("./Traits/Militarism");
+Object.defineProperty(exports, "Militarism", { enumerable: true, get: function () { return Militarism_1.Militarism; } });
+var Militaristic_1 = require("./Traits/Militarism/Militaristic");
+Object.defineProperty(exports, "Militaristic", { enumerable: true, get: function () { return Militaristic_1.Militaristic; } });
+var Normal_1 = require("./Traits/Aggression/Normal");
+Object.defineProperty(exports, "NormalAggression", { enumerable: true, get: function () { return Normal_1.Normal; } });
+var Normal_2 = require("./Traits/Development/Normal");
+Object.defineProperty(exports, "NormalDevelopment", { enumerable: true, get: function () { return Normal_2.Normal; } });
+var Normal_3 = require("./Traits/Militarism/Normal");
+Object.defineProperty(exports, "NormalMilitarism", { enumerable: true, get: function () { return Normal_3.Normal; } });
+var Perfectionist_1 = require("./Traits/Development/Perfectionist");
+Object.defineProperty(exports, "Perfectionist", { enumerable: true, get: function () { return Perfectionist_1.Perfectionist; } });
+//# sourceMappingURL=Traits.js.map
